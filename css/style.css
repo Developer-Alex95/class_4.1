@@ -4,57 +4,7 @@
         url('YandexSansDisplay-Thin.woff2') format('woff2'),
         url('YandexSansDisplay-Thin.woff') format('woff'),
         url('YandexSansDisplay-Thin.ttf');
-    font-weight: 100;
-    font-style: normal;
-  }
-  body {
-    background-color:#FFFFFF;
-    font-family:'Yandex Sans', Arial, Helvetica, sans-serif;
-}
-a{
-    text-decoration: none;
     
-}
-iframe{
-    position: absolute;
-    top: 163px;
-    left: 52px;
-}
-
-.logo {
-    position: absolute;
-    width: 146px;
-    height: 30px;
-    left: 100px;
-    top: 34px;
-}
-.partner {
-    position: absolute;
-    width: 146px;
-    height: 30px;
-    left: 269px;
-    top: 19px;
-    font-family: Yandex Sans Display;
-    font-size: 14px;
-    line-height: 15px;
-    color: #8B8B8B
-}
-.top
-{
-    position: absolute;
-    width: 599px;
-    height: 29px;
-    left: 468px;
-    top: 18px;
-
-    font-family: Yandex Sans Display;
-    font-size: 15px;
-    line-height: 107%;
-    /* or 16px */
-    display: flex;
-    align-items: center;
-     color: #000000;
-}
 .im1{
     position: absolute;
     width: 804px;
