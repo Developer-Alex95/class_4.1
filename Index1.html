@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Такси главная</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script
+  src="http://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    
+     <header>
+        <div class="logo">
+            <img src="img/yandex_taxi_logo_norm.svg">
+        </div>
+               <div class="partner">
+                  <p>Официальный партнер<br>г.Омск</p>
+               </div>
+                  <div class="top">
+                    <a href="">Начало работы</a>
+                    <a href="">Преимущества работы</a>
+                    <a href="">Приложение</a>
+                    <a href="">Контакты</a>
+                   <!--        <a href="">Заказать звонок</a>  -->
+                  </div>
+            
+      </header>
+        <div class="im1">
+        <img src="img/image 3.jpg">
+        </div>
+        <div>
+            <audio controls class="gydok">
+                <source src="sound/00209.mp3">    
+            </audio>
+        </div>
+        <iframe width="440" height="360" src="https://www.youtube.com/embed/TVM2qgNhsFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <script>
+         $('body').append('<button class="JQ">Посчитаем сколько у нас ссылок?...</button>');
+         $('.JQ').css({
+            "margin-top": "+=520",
+            "margin-left":"+=150"
+            });
+         var a = $('a').length;
+         $( "button" ).click(function colichestvo(){
+                alert("Колличество ссылок="+a);
+                $('img').slideToggle(600);
+                $.get( "http://google.com", data, myCallback, "json" );
+
+         });
+        
+            
+//css({'margin-top':700, 'margin-left':100});
+        </script>
+</body>
+</html>
